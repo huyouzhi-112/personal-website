@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You Zhi Hu — Product Manager</title>
+  <meta name="description" content="You Zhi Hu — a research-driven product manager who pairs a PhD with full product ownership. Building 0-to-1 health products across Canada and Japan." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a href="#top" class="nav__name">You Zhi Hu</a>
+      <nav class="nav__links">
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__top reveal">
+          <div class="hero__heading">
+            <h1 class="hero__headline">Hi there, I'm You Zhi!</h1>
+            <p class="hero__eyebrow">Product Manager &nbsp;·&nbsp; PhD &nbsp;·&nbsp; Research-Driven</p>
+          </div>
+          <div class="hero__avatar">
+            <!-- TODO: save your chosen memoji as images/memoji.png in this folder. -->
+            <img src="images/memoji.png" alt="Memoji of You Zhi Hu" onerror="this.style.display='none'" />
+          </div>
+        </div>
+        <p class="hero__intro reveal">
+          I'm a product manager who pairs a PhD with full product ownership. Over the
+          past six years I've taken digital products from 0&nbsp;to&nbsp;1 &mdash; running the
+          research, translating findings into user-centered decisions, and shipping the
+          features. My work spans cognitive assessment, exergaming and VR therapy, built
+          across Canada and Japan.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#products" class="btn btn--primary">View products</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PRODUCTS ===================== -->
+    <section class="section section--products" id="products">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__kicker">Products</span>
+          <h2 class="section__title">Three products, built research-first.</h2>
+          <p class="section__lede">
+            Each began as a research finding and grew into a shipped product. Below,
+            the loop that drove every one: a problem uncovered, a study run, a feature
+            launched &mdash; then measured and iterated again.
+          </p>
+        </header>
+
+        <!-- ---------- PRODUCT 1: BrainTagger ---------- -->
+        <article class="product reveal">
+          <div class="product__media">
+            <img class="product__img" src="images/braintagger.png" alt="BrainTagger cognitive-assessment game"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="media-placeholder" style="display:none;" aria-hidden="true">
+              <span>BrainTagger</span>
+              <small>Add images/braintagger.png</small>
+            </div>
+          </div>
+          <div class="product__body">
+            <div class="product__title-row">
+              <h3 class="product__name">BrainTagger</h3>
+              <span class="product__years">2019 &ndash; 2026</span>
+            </div>
+            <p class="product__role">Researcher &rarr; Project Manager &rarr; Product Manager &nbsp;·&nbsp; Centivizer, Toronto</p>
+            <p class="product__desc">
+              A cognitive-assessment game built on a Whack-A-Mole paradigm for the early
+              detection of cognitive decline and Alzheimer's. I grew it from a research
+              prototype into a consumer subscription platform.
+            </p>
+
+            <ul class="stats">
+              <li><strong>1,500+</strong><span>users</span></li>
+              <li><strong>25</strong><span>releases</span></li>
+              <li><strong>11</strong><span>publications</span></li>
+              <li><strong>1,000+</strong><span>study participants</span></li>
+            </ul>
+
+            <ol class="loop">
+              <li>
+                <span class="loop__tag">Discover</span>
+                <p>A 6-week study (N=16) revealed engagement and performance decayed across sessions &mdash; exposing longitudinal motivation as the core unsolved gap.</p>
+              </li>
+              <li>
+                <span class="loop__tag">Validate</span>
+                <p>Designed and tested four reward conditions (N=442): a leaderboard lifted enjoyment 25% over baseline; self-comparison drove the most stable performance over time (ICC up to 0.96).</p>
+              </li>
+              <li>
+                <span class="loop__tag">Ship</span>
+                <p>Launched a free/premium subscription dashboard built around the winning reward system; shipped a universal version that scaled to 1,500+ users.</p>
+              </li>
+              <li>
+                <span class="loop__tag">Iterate</span>
+                <p>Evolved five game skins &mdash; Whack-A-Mole &rarr; Gardening &rarr; Poker &rarr; Alchemy &rarr; Word-matching &mdash; each driven by annual user testing (N&asymp;110) to widen appeal.</p>
+              </li>
+            </ol>
+
+            <details class="research">
+              <summary>Related research</summary>
+              <div class="research__body">
+                <!-- TODO: paste your APA citations here and link each to its paper.
+                     Format:  <li><a href="PAPER_URL">Author, A. (Year). Title. Journal.</a></li> -->
+                <ul>
+                  <li class="research__placeholder">Add a publication citation here &rarr; link to the paper.</li>
+                  <li class="research__placeholder">Add a publication citation here &rarr; link to the paper.</li>
+                </ul>
+                <a class="research__scholar" href="https://scholar.google.com/citations?user=E8B6MGkAAAAJ&hl=en" target="_blank" rel="noopener">View all publications on Google Scholar &rarr;</a>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <!-- ---------- PRODUCT 2: 2RaceWithMe ---------- -->
+        <article class="product product--reverse reveal">
+          <div class="product__media">
+            <img class="product__img" src="images/2racewithme.png" alt="2RaceWithMe pedal-based exergaming system"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="media-placeholder" style="display:none;" aria-hidden="true">
+              <span>2RaceWithMe</span>
+              <small>Add images/2racewithme.png</small>
+            </div>
+          </div>
+          <div class="product__body">
+            <div class="product__title-row">
+              <h3 class="product__name">2RaceWithMe</h3>
+              <span class="product__years">2020 &ndash; 2026</span>
+            </div>
+            <p class="product__role">Project Manager &rarr; Product Manager &nbsp;·&nbsp; Centivizer, Toronto</p>
+            <p class="product__desc">
+              A pedal-based exergaming system for older adults in long-term care &mdash; a
+              stationary bike paired with scenic travel videos that advance only while
+              pedalling, merging rehabilitation with virtual tourism.
+            </p>
+
+            <ul class="stats">
+              <li><strong>18</strong><span>care facilities</span></li>
+              <li><strong>2</strong><span>languages localized</span></li>
+              <li><strong>91</strong><span>tables (from 158)</span></li>
+              <li><strong>N=126</strong><span>video study</span></li>
+            </ul>
+
+            <ol class="loop">
+              <li>
+                <span class="loop__tag">Discover</span>
+                <p>Caregivers had no activity insight and residents couldn't see their output; credential logins were a barrier for elderly users.</p>
+              </li>
+              <li>
+                <span class="loop__tag">Build</span>
+                <p>Shipped RFID frictionless login from the CEO's concept; consolidated a sprawling schema from 158 to 91 tables (&minus;42%) with a live migration; launched dual dashboards for caregivers and residents.</p>
+              </li>
+              <li>
+                <span class="loop__tag">Engage</span>
+                <p>Added a two-rider competition mode to reduce loneliness, with French (Canada) and Japanese (Tokyo) localization for global expansion.</p>
+              </li>
+              <li>
+                <span class="loop__tag">Standardize</span>
+                <p>Ran the first systematic study (N=126, 40 videos) on what makes a good pedalling video &mdash; smooth camera motion and hometown-evoking scenery became the sourcing criteria for every new video.</p>
+              </li>
+            </ol>
+
+            <details class="research">
+              <summary>Related research</summary>
+              <div class="research__body">
+                <ul>
+                  <li class="research__placeholder">Add a publication citation here &rarr; link to the paper.</li>
+                </ul>
+                <a class="research__scholar" href="https://scholar.google.com/citations?user=E8B6MGkAAAAJ&hl=en" target="_blank" rel="noopener">View all publications on Google Scholar &rarr;</a>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <!-- ---------- PRODUCT 3: MindGrove ---------- -->
+        <article class="product reveal">
+          <div class="product__media">
+            <img class="product__img" src="images/mindgrove.png" alt="MindGrove VR therapeutic forest environment"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="media-placeholder" style="display:none;" aria-hidden="true">
+              <span>MindGrove</span>
+              <small>Add images/mindgrove.png</small>
+            </div>
+          </div>
+          <div class="product__body">
+            <div class="product__title-row">
+              <h3 class="product__name">MindGrove</h3>
+              <span class="product__years">2022 &ndash; 2026</span>
+            </div>
+            <p class="product__role">Principal Researcher &amp; Product Manager (0&rarr;1) &nbsp;·&nbsp; University of Toronto &amp; Institute of Science Tokyo</p>
+            <p class="product__desc">
+              A VR therapeutic app for social anxiety in young adults &mdash; an immersive
+              Unity forest with guided paths, embedded psychotherapy, and exposure-therapy
+              modules. Built from scratch as my PhD dissertation and extended in postdoctoral
+              research.
+            </p>
+
+            <ul class="stats">
+              <li><strong>174</strong><span>participants</span></li>
+              <li><strong>4</strong><span>versions</span></li>
+              <li><strong>6</strong><span>experimental cycles</span></li>
+              <li><strong>2</strong><span>countries</span></li>
+            </ul>
+
+            <ol class="loop">
+              <li>
+                <span class="loop__tag">Roadmap</span>
+                <p>Research showed elevated post-COVID social anxiety, few RCT-validated apps, and nothing combining nature with structured psychotherapy &mdash; so I scoped a forest progressing from passive therapy to active exposure.</p>
+              </li>
+              <li>
+                <span class="loop__tag">V1 &middot; Prove</span>
+                <p>Shipped in a 6-month cycle; trials in Canada (N=58) and Japan (N=36) showed statistically significant social-anxiety reduction &mdash; the first rigorous RCT evidence.</p>
+              </li>
+              <li>
+                <span class="loop__tag">V2 &middot; Comfort</span>
+                <p>Cut cybersickness through hardware-software co-development: built walk-in-place and pedal-navigation inputs with a mechanical engineer and compared them (N=16).</p>
+              </li>
+              <li>
+                <span class="loop__tag">V3 &middot; Interact</span>
+                <p>Added interactive exposure (N=55): a public-speaking simulation with a distracting virtual audience, plus a transformer-based speech-analysis pipeline extracting vocal anxiety markers.</p>
+              </li>
+              <li>
+                <span class="loop__tag">V4 &middot; Scale</span>
+                <p>Validated cross-cultural efficacy with Japanese localization and longitudinal testing (N=36): reduced anxiety and increased public-speaking confidence.</p>
+              </li>
+            </ol>
+
+            <details class="research">
+              <summary>Related research</summary>
+              <div class="research__body">
+                <ul>
+                  <li class="research__placeholder">Add a publication citation here &rarr; link to the paper.</li>
+                  <li class="research__placeholder">Add a publication citation here &rarr; link to the paper.</li>
+                </ul>
+                <a class="research__scholar" href="https://scholar.google.com/citations?user=E8B6MGkAAAAJ&hl=en" target="_blank" rel="noopener">View all publications on Google Scholar &rarr;</a>
+              </div>
+            </details>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section section--about" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="section__kicker">About</span>
+          <h2 class="section__title">Research and product, in parallel.</h2>
+          <p class="section__lede">
+            I've spent the last decade moving between the lab and the product team &mdash;
+            often at the same time. The timeline below shows my education and work running
+            side by side: studying while building, and building what the studying revealed.
+          </p>
+        </header>
+
+        <!-- ---------- DUAL-COLUMN TIMELINE ---------- -->
+        <div class="timeline reveal">
+          <div class="timeline__heads">
+            <span class="timeline__head timeline__head--left">Education</span>
+            <span class="timeline__head timeline__head--right">Work</span>
+          </div>
+
+          <!-- Education (left) -->
+          <div class="tl-item tl-item--left">
+            <span class="tl-year">2022 &ndash; 2025</span>
+            <h4>Ph.D., Industrial Engineering</h4>
+            <p class="tl-org">University of Toronto (St. George)</p>
+            <p class="tl-note">Thesis: Evaluation of VR interventions for reducing social and public-speaking anxiety &mdash; a virtual-forest approach.</p>
+          </div>
+
+          <!-- Work (right) -->
+          <div class="tl-item tl-item--right">
+            <span class="tl-year">2022 &ndash; 2026</span>
+            <h4>Principal Researcher &amp; Product Manager</h4>
+            <p class="tl-org">University of Toronto &amp; Institute of Science Tokyo</p>
+            <p class="tl-note">Led MindGrove 0&rarr;1: 15 developers, 12 research assistants, ethics, budget, and all statistical analysis.</p>
+          </div>
+
+          <div class="tl-item tl-item--right">
+            <span class="tl-year">2022 &ndash; 2026</span>
+            <h4>Operating Officer</h4>
+            <p class="tl-org">Centivizer, Toronto</p>
+            <p class="tl-note">Built the company's first hiring/onboarding pipeline; formalized operations, payroll, and inventory to support scaling.</p>
+          </div>
+
+          <div class="tl-item tl-item--left">
+            <span class="tl-year">2020 &ndash; 2022</span>
+            <h4>M.A.Sc., Industrial Engineering</h4>
+            <p class="tl-org">University of Toronto (Research-based)</p>
+            <p class="tl-note">Thesis: Assessing the impact of gamification rewards on enjoyment and cognitive performance.</p>
+          </div>
+
+          <div class="tl-item tl-item--right">
+            <span class="tl-year">2019 &ndash; 2026</span>
+            <h4>Product Manager &amp; Researcher</h4>
+            <p class="tl-org">Centivizer, Toronto</p>
+            <p class="tl-note">Owned BrainTagger and 2RaceWithMe end-to-end &mdash; from research discovery to shipped consumer features.</p>
+          </div>
+
+          <div class="tl-item tl-item--right">
+            <span class="tl-year">2020 &ndash; 2024</span>
+            <h4>Teaching Assistant &mdash; MIE242</h4>
+            <p class="tl-org">University of Toronto</p>
+            <p class="tl-note">Taught applied psychology to 550+ students; turned BrainTagger into a live classroom dataset.</p>
+          </div>
+
+          <div class="tl-item tl-item--left">
+            <span class="tl-year">2015 &ndash; 2020</span>
+            <h4>B.Sc., Cognitive Science &amp; Statistics</h4>
+            <p class="tl-org">Minor in Computer Science &middot; Graduated with Distinction</p>
+          </div>
+
+          <!-- TODO: confirm exact title + dates for your Michael Kors internship and I'll finalize this entry. -->
+          <div class="tl-item tl-item--right">
+            <span class="tl-year">Undergrad &middot; dates TBC</span>
+            <h4>Retail Internship</h4>
+            <p class="tl-org">Michael Kors</p>
+            <p class="tl-note">Placeholder &mdash; send me the exact role title and dates and I'll update this.</p>
+          </div>
+        </div>
+
+        <!-- ---------- SKILLS ---------- -->
+        <div class="skills reveal">
+          <h3 class="skills__title">Skills</h3>
+          <div class="skills__grid">
+            <div class="skill-group">
+              <h4>Product &amp; Design</h4>
+              <p>Jira, Figma, Product Roadmapping, PRD Writing, OKR Definition, User Research, A/B Testing</p>
+            </div>
+            <div class="skill-group">
+              <h4>AI / NLP / ML</h4>
+              <p>Transformers (speech &amp; vocal analysis), NLP (NLTK, sentiment, text classification), scikit-learn, PyTorch, TensorFlow, Keras, Statistical Modeling</p>
+            </div>
+            <div class="skill-group">
+              <h4>Data &amp; Languages</h4>
+              <p>Python (pandas, matplotlib, plotly, seaborn), R, SQL, Java, SPSS</p>
+            </div>
+            <div class="skill-group">
+              <h4>Development</h4>
+              <p>Unity (VR), Git, GitHub, AWS, Microsoft Office, Google Workspace</p>
+            </div>
+            <div class="skill-group">
+              <h4>Languages</h4>
+              <p>English (fluent), Mandarin Chinese (native), Japanese (conversational)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <div class="reveal">
+          <span class="section__kicker">Contact</span>
+          <h2 class="contact__title">Let's build something worth studying.</h2>
+          <p class="contact__lede">
+            Open to product roles where research and shipping live in the same person.
+            The fastest way to reach me is email.
+          </p>
+          <div class="contact__links">
+            <a href="mailto:bx44huyouzhi@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/you-zhi-hu-phd-51b151123/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=E8B6MGkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://github.com/huyouzhi-112" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <span>&copy; <span id="year"></span> You Zhi Hu</span>
+          <a href="#top">Back to top &uarr;</a>
+        </div>
+      </footer>
+    </section>
+
+  </main>
+
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Reveal-on-scroll
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
+
+</body>
+</html>
